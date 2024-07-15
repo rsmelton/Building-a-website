@@ -6,6 +6,9 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
+    // This should take care of the structuring and now we can
+    // each work on these components individually and probably have less
+    // merge conflicts as a result.
     <div className="App">
       <Header />
       <MainContent />
