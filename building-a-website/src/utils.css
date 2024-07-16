@@ -1,0 +1,12 @@
+:root {
+    --primary-brown-color: #3E3831;
+    --primary-green-color: #3EA56C;
+    --primary-font-color: #FEEFB0;
+}
+
+/* Google font */
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
