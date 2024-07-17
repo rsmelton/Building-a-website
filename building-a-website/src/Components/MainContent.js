@@ -2,14 +2,16 @@ import React from 'react';
 import './MainContent.css';
 import '../utils.css';
 import coffeeHouseImg from '../images/coffeeHouse.png';
+import welcomeScreenImg from '../images/welcomeScreen.png';
 
 function MainContent() {
   return (
     // So here we will have one container that holds other containers
     <main>
+        <img src={welcomeScreenImg} alt='Welcome Screen' width={1000} height={600} />
         <div className='container'>
             <div className='description_container kanit-light'>
-                <h2>Dragon's Brew</h2>
+                {/* <h2>Dragon's Brew</h2> */}
                 <p>The ambiance is cozy yet enigmatic, with soft instrumental music playing in the background, creating a serene atmosphere perfect for contemplation or conversation. The menu boasts a variety of unique blends and brews inspired by different dragon lore from around the world. You can savor a "Fire Dragon Espresso," a bold and intense shot with a spicy kick, or perhaps indulge in a "Frost Dragon Latte," a creamy concoction infused with mint and white chocolate.</p>
                 <p>The baristas, clad in aprons adorned with dragon motifs, are friendly and knowledgeable, ready to guide you through the menu and recommend the perfect drink to suit your mood. Patrons are often seen relaxing with their laptops or books, enjoying the free Wi-Fi and the comforting warmth of their dragon-emblazoned ceramic mugs.</p>
                 <p>Dragons Brew isn't just a coffee shop; it's a sanctuary where myth and reality blend seamlessly, where every sip transports you on a journey through legends and fantasies. Whether you're seeking a quick caffeine fix or a tranquil retreat from the urban hustle, Dragons Brew promises an unforgettable experience steeped in both magic and the art of coffee.</p>
