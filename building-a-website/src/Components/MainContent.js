@@ -9,7 +9,7 @@ function MainContent() {
     // So here we will have one container that holds other containers
     <main>
         <img src={welcomeScreenImg} alt='Welcome Screen' width={1000} height={600} />
-        <div className='container'>
+        <div id='about' className='container'>
             <div className='description_container kanit-light'>
                 {/* <h2>Dragon's Brew</h2> */}
                 <p>The ambiance is cozy yet enigmatic, with soft instrumental music playing in the background, creating a serene atmosphere perfect for contemplation or conversation. The menu boasts a variety of unique blends and brews inspired by different dragon lore from around the world. You can savor a "Fire Dragon Espresso," a bold and intense shot with a spicy kick, or perhaps indulge in a "Frost Dragon Latte," a creamy concoction infused with mint and white chocolate.</p>
