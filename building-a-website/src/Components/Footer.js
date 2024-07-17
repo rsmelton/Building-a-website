@@ -3,10 +3,10 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div>Footer</div>
-    // In this section we can just have our names, our "restaraunt" name, 
-    // copyright info, etc
-    // This section will probably be pretty minimal
+    <div className='footer_container'>
+      <p>&copy; 2024 Dragon's Brew Coffee</p>
+      <p>A fictional company created by Robert Melton and Deondre North</p>
+    </div>
   );
 }
 

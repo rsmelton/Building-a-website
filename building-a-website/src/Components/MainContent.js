@@ -40,7 +40,7 @@ function MainContent() {
                 <p>Dragons Brew has quickly become my favorite coffee haunt in town. The quality of their coffee is unmatched, sourced from the best beans and expertly brewed to perfection. It's evident that they care about the craft, as each cup is consistently delicious. Beyond the coffee, the staff here truly makes the experience exceptional. They're not just baristas; they're passionate about coffee and always willing to share their knowledge. Whether you're a coffee aficionado or simply enjoy a good cup, Dragons Brew is a must-visit!</p>
             </div>
         </div>
-        <hr />
+        {/* <hr /> */}
     </main>
   );
 }
