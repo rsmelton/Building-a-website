@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header';
+import Header from './Components/Navbar';
 import MainContent from './Components/MainContent';
 import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
     // each work on these components individually and probably have less
     // merge conflicts as a result.
     <div className="App">
-      <Header />
+      <Navbar />
       <MainContent />
       <Footer />
     </div>
