@@ -8,7 +8,7 @@ function MainContent() {
   return (
     // So here we will have one container that holds other containers
     <main>
-        <img src={welcomeScreenImg} alt='Welcome Screen' width={1000} height={600} />
+        <img className='welcome_screen_image' src={welcomeScreenImg} alt='Welcome Screen' />
         <div id='about' className='container'>
             <div className='description_container kanit-light'>
                 {/* <h2>Dragon's Brew</h2> */}
