@@ -12,6 +12,7 @@ function MainContent() {
         <div id='about' className='container'>
             <div className='description_container kanit-light'>
                 {/* <h2>Dragon's Brew</h2> */}
+                <h2><u>About</u></h2>
                 <p>The ambiance is cozy yet enigmatic, with soft instrumental music playing in the background, creating a serene atmosphere perfect for contemplation or conversation. The menu boasts a variety of unique blends and brews inspired by different dragon lore from around the world. You can savor a "Fire Dragon Espresso," a bold and intense shot with a spicy kick, or perhaps indulge in a "Frost Dragon Latte," a creamy concoction infused with mint and white chocolate.</p>
                 <p>The baristas, clad in aprons adorned with dragon motifs, are friendly and knowledgeable, ready to guide you through the menu and recommend the perfect drink to suit your mood. Patrons are often seen relaxing with their laptops or books, enjoying the free Wi-Fi and the comforting warmth of their dragon-emblazoned ceramic mugs.</p>
                 <p>Dragons Brew isn't just a coffee shop; it's a sanctuary where myth and reality blend seamlessly, where every sip transports you on a journey through legends and fantasies. Whether you're seeking a quick caffeine fix or a tranquil retreat from the urban hustle, Dragons Brew promises an unforgettable experience steeped in both magic and the art of coffee.</p>
@@ -19,12 +20,13 @@ function MainContent() {
                 <p><b>Pickup or Delivery is available thru Uber Eats or Doordash.</b></p>
             </div>
             <div className='info_container kanit-light'>
-                <h3>PHONE NUMBER</h3>
-                <h4>(256)-123-4567</h4>
-                <h3>LOCATION</h3>
-                <h4>TBA</h4>
-                <h3>HOURS</h3>
-                <h4>7:00 am - 4:00 pm</h4>
+                <h2><u>Contact</u></h2>
+                <h3>PHONE NUMBER: (256)-123-4567</h3>
+                {/* <h4>(256)-123-4567</h4> */}
+                <h3>LOCATION: TBA</h3>
+                {/* <h4>TBA</h4> */}
+                <h3>HOURS: 7:00 am - 4:00 pm</h3>
+                {/* <h4>7:00 am - 4:00 pm</h4> */}
                 <h4>Everyday</h4>
             </div>
         </div>
