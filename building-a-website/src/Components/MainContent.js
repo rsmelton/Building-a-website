@@ -3,8 +3,25 @@ import './MainContent.css';
 import '../utils.css';
 import coffeeHouseImg from '../images/coffeeHouse.png';
 import welcomeScreenImg from '../images/welcomeScreen.png';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function MainContent() {
+
+    const location = useLocation();
+
+    // useEffect runs after the page is done rendering
+    // which allows the scrolling to happen instead of the 
+    // page loading and thinking it already scrolled.
+    useEffect(() => {
+        if (location.hash) {
+            const element = document.querySelector(location.hash);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location.hash]);
+
   return (
     <main>
         <img className='welcome_screen_image' src={welcomeScreenImg} alt='Welcome Screen' />
