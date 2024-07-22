@@ -6,7 +6,6 @@ import welcomeScreenImg from '../images/welcomeScreen.png';
 
 function MainContent() {
   return (
-    // So here we will have one container that holds other containers
     <main>
         <img className='welcome_screen_image' src={welcomeScreenImg} alt='Welcome Screen' />
         <div id='about' className='container'>

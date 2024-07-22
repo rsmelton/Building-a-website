@@ -1,7 +1,5 @@
-/* src/Navbar.css */
-
 .navbar {
-    background-color: #603a18; /* Dark brown color */
+    background-color: #603a18; 
     padding: 15px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -23,7 +21,7 @@
 .navbar-logo {
     font-size: 24px;
     font-weight: bold;
-    color: #f9d342; /* Gold color */
+    color: #f9d342; 
     text-decoration: none;
 }
 
@@ -37,10 +35,10 @@
 
 .navbar-item a {
     text-decoration: none;
-    color: #f9d342; /* Gold color */
+    color: #f9d342; 
     font-size: 18px;
 }
 
 .navbar-item a:hover {
-    color: #d4a30d; /* Darker gold for hover effect */
+    color: #d4a30d; 
 }
