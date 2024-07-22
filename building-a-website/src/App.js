@@ -1,20 +1,23 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Navbar';
-import MainContent from './Components/MainContent';
-import Footer from './Components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import MainContent from './Components/MainContent';
+import Menu from './Components/Menu';
 
 function App() {
   return (
-    // This should take care of the structuring and now we can
-    // each work on these components individually and probably have less
-    // merge conflicts as a result.
-    <div className="App">
-      <Navbar />
-      <MainContent />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<MainContent />} />
+          <Route path="/menu" element={<Menu />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
