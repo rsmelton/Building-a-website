@@ -1,0 +1,39 @@
+.title {
+    color: var(--primary-font-color);
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem;
+    color: var(--primary-font-color);
+    border: 1px solid red;
+}
+
+.cell-container {
+    padding: 3rem;
+}
+
+.cell-item {
+    width: 250px;
+    height: 250px;
+}
+
+@media (max-width: 700px) {
+    .menu-container {
+        grid-template-columns: 1fr;
+    }
+
+    .cell-item {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .cell-item {
+        width: 400px;
+        height: 400px;
+    }
+}
