@@ -1,6 +1,6 @@
 button {
     background-color: var(--primary-green-color); /* Green */
-    border: none;
+    border: 3px solid green;
     color: white;
     padding: 15px 32px;
     text-align: center;
