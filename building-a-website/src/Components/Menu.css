@@ -17,6 +17,8 @@ button:hover {
 
 .title {
     color: var(--primary-font-color);
+    font-size: 3rem;
+    text-decoration: underline;
 }
 
 .menu-container {
