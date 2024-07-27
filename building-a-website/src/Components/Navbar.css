@@ -36,9 +36,15 @@
 .navbar-item a {
     text-decoration: none;
     color: #f9d342; 
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .navbar-item a:hover {
     color: #d4a30d; 
+}
+
+@media (max-width: 700px) {
+    .navbar-item a {
+        font-size: 23px;
+    }
 }
